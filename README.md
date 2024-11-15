@@ -1,25 +1,9 @@
-# Getting Started
+# issue-named-service-exports
 
-Welcome to your new project.
+Showcase for issue behind https://github.com/cap-js/cds-typer/issues/288
 
-It contains these folders and files, following our recommended project layout:
+See file ./srv/callerService.js
+- The type for the default service export works
+- The type for the default service export doesn't
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
-
-
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
+Use https://marketplace.visualstudio.com/items?itemName=Orta.vscode-twoslash-queries to highlight the Twoslash `// ^?` marker.
