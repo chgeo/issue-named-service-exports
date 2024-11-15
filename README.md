@@ -2,7 +2,7 @@
 
 Showcase for issue behind https://github.com/cap-js/cds-typer/issues/288
 
-See file ./srv/callerService.js
+See file [callerService.js](./srv/callerService.js)
 - The type for the default service export works
 - The type for the default service export doesn't
 
