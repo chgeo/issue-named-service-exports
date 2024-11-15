@@ -7,12 +7,14 @@ module.exports = class CallerService extends cds.ApplicationService { init() {
 
   this.on (someAction, async (req) => {
     const catService = await cds.connect.to(CatalogService)
+    //                                             ^?  strange 'import' type
     await catService.submitOrder()
-    //               ^?   no type
+    //                     ^?   no type
 
     const catServiceNamed = await cds.connect.to(CatalogServiceNamed)
+//                                                 ^?  proper class type
     await catServiceNamed.submitOrder()
-    //                    ^?  has type
+    //                     ^?  has type
 
   })
 
